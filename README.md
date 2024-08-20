@@ -32,4 +32,83 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
   ...
 ]
 
+● Get Contact by ID
+
+1.URL: /contacts/:id
+
+2.Method: GET
+
+3.Response:
+
+```json
+{
+  "id": 1,
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "phone": "123-456-7890"
+}
+
+● Create New Contact
+
+1.URL: /contacts
+
+2.Method: POST
+
+3.Request Body:
+
+```json
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "phone": "123-456-7890"
+}
+
+4.Response:
+
+```json
+{
+  "id": 2,
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "phone": "123-456-7890"
+}
+
+● Update Contact by ID
+
+1.URL: /contacts/:id
+
+2.Method: PUT
+
+3.Request Body:
+
+```json
+{
+  "email": "newemail@example.com"
+}
+
+4.Response:
+
+```json
+{
+  "id": 1,
+  "name": "John Doe",
+  "email": "newemail@example.com",
+  "phone": "123-456-7890"
+}
+
+● Delete Contact by ID
+
+1.URL: /contacts/:id
+
+2.Method: DELETE
+
+3.Response:
+
+```json
+{
+  "id": 1,
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "phone": "123-456-7890"
+}
 
