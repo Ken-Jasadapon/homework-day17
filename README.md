@@ -15,8 +15,11 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
 # API Endpoints
 ● Get All Contacts
 1.URL: /contacts
+
 2.Method: GET
+
 3.Response:
+
 ```json
 [
   {
