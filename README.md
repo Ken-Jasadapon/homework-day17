@@ -33,6 +33,7 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
 ]
 ```
 
+
 ● Get Contact by ID
 
 1.URL: /contacts/:id
