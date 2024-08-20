@@ -25,8 +25,8 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
 [
   {
     "id": 1,
-    "name": "John Doe",
-    "email": "johndoe@example.com",
+    "name": "admin",
+    "email": "admin@example.com",
     "phone": "123-456-7890"
   },
   ...
@@ -44,8 +44,8 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
 ```json
 {
   "id": 1,
-  "name": "John Doe",
-  "email": "johndoe@example.com",
+  "name": "admin",
+  "email": "admin@example.com",
   "phone": "123-456-7890"
 }
 ```
@@ -60,8 +60,8 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
 
 ```json
 {
-  "name": "John Doe",
-  "email": "johndoe@example.com",
+  "name": "admin",
+  "email": "admin@example.com",
   "phone": "123-456-7890"
 }
 ```
@@ -70,9 +70,9 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
 
 ```json
 {
-  "id": 2,
-  "name": "John Doe",
-  "email": "johndoe@example.com",
+  "id": 1,
+  "name": "admin",
+  "email": "admin@example.com",
   "phone": "123-456-7890"
 }
 ```
@@ -96,7 +96,7 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
 ```json
 {
   "id": 1,
-  "name": "John Doe",
+  "name": "admin",
   "email": "newemail@example.com",
   "phone": "123-456-7890"
 }
@@ -113,8 +113,8 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
 ```json
 {
   "id": 1,
-  "name": "John Doe",
-  "email": "johndoe@example.com",
+  "name": "admin",
+  "email": "admin@example.com",
   "phone": "123-456-7890"
 }
 ```
