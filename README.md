@@ -33,7 +33,6 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
 ]
 ```
 
-
 ● Get Contact by ID
 
 1.URL: /contacts/:id
@@ -49,6 +48,7 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
   "email": "johndoe@example.com",
   "phone": "123-456-7890"
 }
+```
 
 ● Create New Contact
 
@@ -64,6 +64,7 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
   "email": "johndoe@example.com",
   "phone": "123-456-7890"
 }
+```
 
 4.Response:
 
@@ -74,6 +75,7 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
   "email": "johndoe@example.com",
   "phone": "123-456-7890"
 }
+```
 
 ● Update Contact by ID
 
@@ -87,6 +89,7 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
 {
   "email": "newemail@example.com"
 }
+```
 
 4.Response:
 
@@ -97,6 +100,7 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
   "email": "newemail@example.com",
   "phone": "123-456-7890"
 }
+```
 
 ● Delete Contact by ID
 
@@ -113,4 +117,4 @@ This is a simple Contact Management API built with Node.js and Express.js. The A
   "email": "johndoe@example.com",
   "phone": "123-456-7890"
 }
-
+```
